@@ -1,6 +1,6 @@
 weights: yolov5s.pt
 cfg: ''
-data: c:\Users\ASUS ROG\Desktop\tomato_disease_dataset\data\data.yaml
+data: c:\Users\<user>\Desktop\tomato_disease_dataset\data\data.yaml
 hyp:
   lr0: 0.01
   lrf: 0.01
@@ -51,7 +51,7 @@ single_cls: false
 optimizer: SGD
 sync_bn: false
 workers: 8
-project: c:\Users\ASUS ROG\Desktop\tomato_disease_dataset\model_artifacts
+project: c:\Users\<user>\Desktop\tomato_disease_dataset\model_artifacts
 name: yolov5s_tomato_benchmark_minimal
 exist_ok: true
 quad: false
@@ -69,4 +69,4 @@ bbox_interval: -1
 artifact_alias: latest
 ndjson_console: false
 ndjson_file: false
-save_dir: c:\Users\ASUS ROG\Desktop\tomato_disease_dataset\model_artifacts\yolov5s_tomato_benchmark_minimal
+save_dir: c:\Users\<user>\Desktop\tomato_disease_dataset\model_artifacts\yolov5s_tomato_benchmark_minimal

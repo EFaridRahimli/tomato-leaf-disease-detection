@@ -1,0 +1,9 @@
+data/
+yolov5/
+.vscode/
+.ipynb_checkpoints/
+__pycache__/
+*.pt
+!model_artifacts/**/best.pt
+runs/
+.DS_Store
